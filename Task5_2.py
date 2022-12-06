@@ -54,13 +54,11 @@ print('start!')
 while True:
     PutX(arr)
     PrintMatr(arr)
-    CheckForWin(arr, 'X')
     if CheckForWin(arr, 'X'):
         print('Выйграл Х!')
         break
     PutO(arr)
     PrintMatr(arr)
-    CheckForWin(arr, 'O')
     if CheckForWin(arr, 'O'):
         print('Выйграл O!')
         break
